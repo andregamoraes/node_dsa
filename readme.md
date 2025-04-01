@@ -1,9 +1,9 @@
 # Node Sort
 
-A simple TypeScript sorting library implementing various sorting algorithms, including **Selection Sort** and more.
+A simple TypeScript sorting library implementing various sorting algorithms, including **Merge Sort** and more.
 
 ## Features
-- 📌 **Selection Sort** implementation
+- 📌 **Sorting algorithms** implementation
 - 🛠️ Extensible for other sorting algorithms (Bubble Sort, Quick Sort, etc.)
 - ✅ **Unit tests included** for validation
 - 🔥 Written in TypeScript for **strong typing and safety**
