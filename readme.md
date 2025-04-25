@@ -1,18 +1,19 @@
-# Node Sort
+# Data Structures & Algorithms
 
-A simple TypeScript sorting library implementing various sorting algorithms, including **Merge Sort** and more.
+A simple and well-structured collection of classic **algorithms** (like sorting, searching) and **data structures** implemented in **TypeScript**.
 
 ## Features
-- 📌 **Sorting algorithms** implementation
-- 🛠️ Extensible for other sorting algorithms (Bubble Sort, Quick Sort, etc.)
-- ✅ **Unit tests included** for validation
-- 🔥 Written in TypeScript for **strong typing and safety**
+- **Sorting algorithms** implementation
+- Extensible for other sorting algorithms (Bubble Sort, Quick Sort, etc.)
+- **Unit tests included** for validation
+- **Data structures** implementation
+- Written in TypeScript for **strong typing and safety**
 
 ## Installation
 ```sh
 # Clone the repository
-git clone https://github.com/andregamoraes/node_sort.git
-cd node_sort
+git clone https://github.com/andregamoraes/node_dsa.git
+cd node_dsa
 
 # Install dependencies
 npm install
@@ -39,10 +40,15 @@ npx ts-node src/index.ts
 You can use the sorting functions in your project by importing them:
 
 ```ts
-import { selectionSort } from './selectionSort';
+import { selectionSort } from './src/algorithms/selectionSort';
+import { LinkedList } from './src/data_structures/linked_list';
 
 const numbers = [4, 2, 3, 1, 5];
 console.log(selectionSort(numbers)); // Output: [1, 2, 3, 4, 5]
+
+const myLinkedList = new LinkedList<number>(10);
+myLinkedList.append(1)
+myLinkedList.prepend(10)
 ```
 
 ## Contributing
